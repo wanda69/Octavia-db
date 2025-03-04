@@ -6,6 +6,8 @@
 
 // compare to api??
 
+#define MAX 1000
+
 typedef struct {
 	char * meta;	// enum pointer?
 	char * value;
@@ -124,6 +126,24 @@ int main() {
 	// FREQUENT DATA -->
 
 
+	while (true) {
+
+		double[] rate = [4.2,4.1,3.6,3.5];
+		TIMESTAMP[] time = [];
+
+
+	
+
+		//parse data first and then mass insert? or single insert?
+	
+
+
+
+
+
+		BUILD_PROCESS(); // add all data to the application
+
+	}
 
 	return EXIT_SUCCESS;
 }
